@@ -41,4 +41,8 @@ hunger_games = media.Movie("Jogos Vorazes", "Storyline",
 movies = [toy_story, avatar, senhor_dos_aneis, school_of_rock, ratatouille, midnight_in_paris]
 movies.append(hunger_games)
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
